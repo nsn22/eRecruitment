@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@import "tailwindcss";
+
+* {
+  font-family: Outfit;
+}
+
+.lucide {
+  color: #111827;
+  width: 25px;
+  height: 25px;
+  stroke-width: 1.5px;
+}
