@@ -22,7 +22,7 @@ const Sidebar = () => {
 
 
   return (
-    <div className='sticky top-0 left-0 z-40'>
+    <div className='sticky top-0 left-0'>
       <button
         onClick={() => setIsMobileOpen(true)}
         className="md:hidden fixed top-4 left-4 z-50 p-2 bg-white rounded-md shadow-md sm:top-2 sm:left-2 sm:p-1"
@@ -31,8 +31,8 @@ const Sidebar = () => {
       </button>
 
       <aside className={`
-            md:flex flex-col bg-clip-border bg-white border border-gray-200 text-gray-700 h-screen p-4 transition-all
-            ${expanded ? 'w-[20rem]' : 'w-28'}
+            fixed md:flex flex-col bg-clip-border bg-white border border-gray-200 text-gray-700 h-screen p-4 transition-all
+            ${expanded ? 'w-[16rem] md:w-[20rem]' : 'w-28'}
             ${isMobileOpen ? 'translate-x-0 z-50' : '-translate-x-full md:translate-x-0'}
             md:static
             top-0 left-0 z-40
@@ -76,14 +76,14 @@ const Sidebar = () => {
           </li>
 
           {submenuOpen && expanded && (
-              <ul>
-                <a href='' className='flex items-center w-full p-2 px-14 cursor-pointer transition-all hover:ml-2 focus:bg-gray-100 focus:rounded-md active:bg-gray-100 active:rounded-md'>
+              <ul className='border-l border-gray-300 ml-6'>
+                <a href='' className='flex p-2 ml-8 px-2 cursor-pointer rounded-sm hover:bg-gray-100 focus:bg-gray-100 focus:rounded-md active:bg-gray-200 active:rounded-md'>
                   Company
                 </a>
-                <a href='' className='flex items-center w-full p-2 px-14 cursor-pointer transition-all hover:ml-2 focus:bg-gray-100 focus:rounded-md active:bg-gray-100 active:rounded-md'>
+                <a href='' className='flex p-2 ml-8 px-2 cursor-pointer rounded-sm hover:bg-gray-100 focus:bg-gray-100 focus:rounded-md active:bg-gray-200 active:rounded-md'>
                   Department
                 </a>
-                <a href='' className='flex items-center w-full p-2 px-14 cursor-pointer transition-all hover:ml-2 focus:bg-gray-100 focus:rounded-md active:bg-gray-100 active:rounded-md'>
+                <a href='' className='flex p-2 ml-8 px-2 cursor-pointer rounded-sm hover:bg-gray-100 focus:bg-gray-100 focus:rounded-md active:bg-gray-200 active:rounded-md'>
                   Users
                 </a>
               </ul>

@@ -41,8 +41,8 @@ const Navbar = () => {
           </ul>
 
           <div className='flex gap-2 ml-2 md:flex'>
-              <button className='inset-y-0 right-0 hidden px-6 py-2 text-white duration-300 border border-white rounded-full md:block hover:bg-white hover:text-black cursor-pointer'
-               onClick={() => navigate('/joblist')}>Apply</button>
+              <a className='inset-y-0 right-0 hidden px-6 py-2 text-white duration-300 border border-white rounded-full md:block hover:bg-white hover:text-black cursor-pointer'
+               href='/joblist'>Apply</a>
           </div>
         
           <img onClick={() => setIsMenuOpen(!isMenuOpen)} src={assets.menu_icon} className='cursor-pointer md:hidden w-7' alt="" />

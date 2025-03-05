@@ -74,7 +74,7 @@ const ContactUs = () => {
               <textarea className='w-full h-48 px-4 py-3 mt-2 border border-gray-300 rounded resize-none'
                     name="Message" placeholder='Message' required></textarea>
             </div>
-            <button className='px-12 py-2 mb-10 text-white bg-green-500 rounded' id='message'>
+            <button className='px-12 py-2 mb-10 text-white bg-green-500 rounded cursor-pointer' id='message'>
                     {result ? result : "Send Message"}
             </button>
           </form>
