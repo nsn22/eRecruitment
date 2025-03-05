@@ -41,9 +41,9 @@ const Vacancy = () => {
                             </a>
                             <p className="mb-3 font-normal text-gray-900 line-clamp-2">{vacancy.desc}</p>
                             <div className='mt-5 line-clamp-1'>
-                                <span className="inline-block px-2 py-1 mt-2 mr-2 text-sm font-semibold text-gray-900 bg-white border rounded-lg">{vacancy.site}</span>
-                                <span className="inline-block px-2 py-1 mt-2 mr-2 text-sm font-semibold text-gray-900 bg-white border rounded-lg">{vacancy.hiringType}</span>
-                                <span className="inline-block px-2 py-1 mt-2 mr-2 text-sm font-semibold text-gray-900 bg-white border rounded-lg">{vacancy.type}</span>
+                                <span className="inline-block px-2 py-1 mt-2 mr-2 text-sm font-semibold text-gray-800 bg-white border border-gray-500 rounded-lg">{vacancy.site}</span>
+                                <span className="inline-block px-2 py-1 mt-2 mr-2 text-sm font-semibold text-green-600 bg-white border border-green-600 rounded-lg">{vacancy.hiringType}</span>
+                                <span className="inline-block px-2 py-1 mt-2 mr-2 text-sm font-semibold text-sky-600 bg-white border border-sky-600 rounded-lg">{vacancy.type}</span>
                             </div>
 
                             {/* Button */}

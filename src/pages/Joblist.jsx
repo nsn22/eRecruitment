@@ -1,7 +1,7 @@
 import React from 'react'
-import Joblisthead from '../src/components/Joblist/Joblisthead'
-import Vacancy from '../src/components/Joblist/Vacancy'
-import Footer from "../src/components/Footer/Footer"
+import Joblisthead from '../components/Joblist/Joblisthead'
+import Vacancy from '../components/Joblist/Vacancy'
+import Footer from "../components/Footer/Footer"
 
 const Joblist = () => {
   return (

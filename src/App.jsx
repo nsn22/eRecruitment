@@ -1,11 +1,11 @@
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import React from 'react'
-import Contact from '../pages/Contact'
-import Home from '../pages/Home'
-import Joblist from '../pages/Joblist'
+import Contact from './pages/Contact'
+import Home from './pages/Home'
+import Joblist from './pages/Joblist'
 import LoginPage from './components/Login/LoginPage'
 import Jobapply from './components/Jobapply/Jobapply'
-import Admin from '../pages/Admin'
+import Admin from './pages/Admin'
 import Sidebar from './components/Admin/Sidebar/Sidebar'
 
 

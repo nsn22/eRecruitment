@@ -1,6 +1,6 @@
 import React from 'react'
-import Vacancy from '../src/components/Joblist/Vacancy'
-import Sidebar from '../src/components/Admin/Sidebar/Sidebar'
+import Vacancy from '../components/Joblist/Vacancy'
+import Sidebar from '../components/Admin/Sidebar/Sidebar'
 
 const Admin = () => {
   return (

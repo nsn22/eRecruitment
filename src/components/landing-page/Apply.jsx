@@ -10,15 +10,13 @@ const Apply = () => {
         {/* How To Apply */}
         <div className='space-y-4'>
             {howtoapply.map((how, index) => (
-            <div className="relative flex flex-col max-w-4xl mx-auto overflow-hidden bg-white border rounded-lg shadow-sm border-slate-300">
-                <div>
-                    <div key={index} className='p-4 overflow-hidden border-b bg-gradient-to-r from-sky-500 to-green-500 border-slate-200'>
-                        <h5 className='text-xl font-semibold text-white'>{how.step}</h5>
-                    </div>
-                    <div className='px-4 py-3'>
-                        <p className='font-normal leading-normal text-justify text-gray-600'>{how.explanation}</p>
-                    </div>
-                </div>     
+            <div key={index} className="relative flex flex-col max-w-4xl mx-auto overflow-hidden bg-white border rounded-lg shadow-sm border-slate-300">
+                <div className='p-4 overflow-hidden border-b bg-gradient-to-r from-sky-500 to-green-500 border-slate-200'>
+                    <h5 className='text-xl font-semibold text-white'>{how.step}</h5>
+                </div>
+                <div className='px-4 py-3'>
+                    <p className='font-normal leading-normal text-justify text-gray-600'>{how.explanation}</p>
+                </div>    
             </div>
             ))}
         </div>     
